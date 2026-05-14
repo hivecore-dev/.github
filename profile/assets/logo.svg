@@ -1,0 +1,85 @@
+<svg width="720" height="220" viewBox="0 0 720 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hexGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FDB813"/>
+      <stop offset="100%" stop-color="#F57C00"/>
+    </linearGradient>
+
+    <linearGradient id="coreGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1D4ED8"/>
+      <stop offset="100%" stop-color="#2563EB"/>
+    </linearGradient>
+
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#00000022"/>
+    </filter>
+  </defs>
+
+  <!-- Hive Cluster -->
+  <g transform="translate(30,20)" filter="url(#shadow)">
+
+    <!-- Outer Hexes -->
+    <polygon points="70,20 110,43 110,89 70,112 30,89 30,43"
+             fill="url(#hexGradient)"/>
+
+    <polygon points="130,55 170,78 170,124 130,147 90,124 90,78"
+             fill="url(#hexGradient)" opacity="0.95"/>
+
+    <polygon points="70,90 110,113 110,159 70,182 30,159 30,113"
+             fill="url(#hexGradient)" opacity="0.9"/>
+
+    <!-- Core Hex -->
+    <polygon points="130,20 170,43 170,89 130,112 90,89 90,43"
+             fill="url(#coreGradient)"/>
+
+    <!-- Core Symbol -->
+    <circle cx="130" cy="66" r="16" fill="white" opacity="0.95"/>
+
+    <!-- Connected Nodes -->
+    <circle cx="122" cy="60" r="3" fill="#2563EB"/>
+    <circle cx="138" cy="60" r="3" fill="#2563EB"/>
+    <circle cx="130" cy="74" r="3" fill="#2563EB"/>
+
+    <line x1="122" y1="60" x2="138" y2="60" stroke="#2563EB" stroke-width="2"/>
+    <line x1="122" y1="60" x2="130" y2="74" stroke="#2563EB" stroke-width="2"/>
+    <line x1="138" y1="60" x2="130" y2="74" stroke="#2563EB" stroke-width="2"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(250,78)">
+    <text x="0" y="0"
+          font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="54"
+          font-weight="700"
+          fill="#1E293B"
+          letter-spacing="1">
+      Hive
+    </text>
+
+    <text x="120" y="0"
+          font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="54"
+          font-weight="700"
+          fill="#2563EB"
+          letter-spacing="1">
+      core
+    </text>
+
+    <text x="4" y="36"
+          font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="16"
+          font-weight="500"
+          fill="#64748B"
+          letter-spacing="2.5">
+      OPEN SOURCE MODELING PLATFORM
+    </text>
+    <text x="4" y="54"
+          font-family="Inter, Segoe UI, Helvetica, Arial, sans-serif"
+          font-size="16"
+          font-weight="500"
+          fill="#64748B"
+          letter-spacing="2.5">
+      BY OPENMBEE
+    </text>
+  </g>
+</svg>
