@@ -22,7 +22,7 @@ with JSON and graphs than to traditional EMF-style MOF tooling.
             ┌──────────────────────────────────────┐
             │  Editors, Views, IDE plugins         │
             ├──────────────────────────────────────┤
-            │  Hivecore Core Framework (HCF)       │
+            │  Hivecore Framework (HCF)       │
             │  KerML / SysML v2 semantics + API    │
             ├──────────────────────────────────────┤
             │  Hivecore Model Framework (HMF)      │
@@ -42,7 +42,7 @@ metamodel can be built on top of it.
 - **[`hmf-codegen`](https://github.com/hivecore-dev/hmf-codegen)** —
   code generation from metamodel definitions.
 
-### Hivecore Core Framework (HCF)
+### Hivecore Framework (HCF)
 
 KerML and SysML v2 semantics, libraries, and services built on HMF.
 
